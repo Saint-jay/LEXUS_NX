@@ -1,6 +1,14 @@
 @import url("font.css");
+html {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
 body {
   font-family: FZLTCXHJW;
+  height: 100%;
+  overflow: auto;
+  margin: 0;
 }
 .viewport {
   width: 100%;
@@ -12,13 +20,11 @@ body {
   -webkit-perspective: 600;
   -webkit-transform-style: preserve-3d;
   -webkit-perspective-origin: 50% 50%;
-  overflow: hidden;
 }
 .partOne .container {
   width: 100%;
   height: 100%;
   position: absolute;
-  overflow: hidden;
   -webkit-transform-origin: 50% top;
 }
 .partOne #BLN {
@@ -27,7 +33,6 @@ body {
   background-color: #ffffff;
   opacity: 0;
   position: absolute;
-  overflow: hidden;
 }
 .partOne .car {
   width: 100%;
