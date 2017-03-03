@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="style/reset.css"/>
+		<link rel="stylesheet" href="style/index.css"/>
+		<script>
+			var iScale = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+			var iWidth = document.documentElement.clientWidth;
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth/16+'px';
+		</script>
+		<meta name="x5-orientation" content="portrait" />
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="screen-orientation" content="portrait" />
+		<meta name="full-screen" content="yes" />
+	</head>
+	<body>
+		<div class="viewport">
+			<!--************************partOne*************************-->
+			<div class="partOne">
+				<div class="container">
+					<div class="car"></div>
+					<ul class="pieces">
+		                <li class="piece piece_07"></li>
+		                <li class="piece piece_14"></li>
+		                <li class="piece piece_15"></li>
+		                <li class="piece piece_06"></li>
+		                <li class="piece piece_01"></li>
+		                <li class="piece piece_02"></li>
+		                <li class="piece piece_03"></li>
+		                <li class="piece piece_04"></li>
+		                <li class="piece piece_05"></li>
+		                <li class="piece piece_08"></li>
+		                <li class="piece piece_09"></li>
+		                <li class="piece piece_10"></li>
+		                <li class="piece piece_12"></li>
+		                <li class="piece piece_13"></li>
+		                <li class="piece piece_16"></li>
+		                <li class="piece piece_17"></li>
+		                <li class="piece piece_18"></li>
+		                <li class="piece piece_19"></li>
+		                <li class="piece piece_11"></li>
+					</ul>
+				</div>
+				<div id="BLN"></div>
+			</div>
+			<!--************************partTwo*************************-->	
+			<div class="partTwo"  style="display: block;">
+				<div class="container">
+					<div class="logo"></div>
+					<!--***a***-->
+					<a class="arr_left" href="#"></a>
+					<a class="arr_right" href="#"></a>
+					<!--****************子页面********************-->
+					<div class="pages" style="display: block;">
+						<ul class="iscroll">
+							<li class="pagesOne"></li>
+							
+							
+							
+						</ul>
+						<a class="arr_left" href="#"></a>
+						<a class="arr_right" href="#"></a>
+					</div>
+					<!--***nav***-->
+					<div class="nav_left" style="display: none;">
+						<div class="light"></div>
+						<div class="title_nx"></div>
+						<div class="subtitle"></div>
+						<!--****************列表********************-->
+						<div class="nav_box">
+							<ul class="nav_list">
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>简单，是件复杂的事</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="nav_list_left">
+									<i class="arr_list"></i>
+									<a>值得喝彩的“矛盾”</a>
+								</li>
+								<li class="arr_up"></li>
+								<li class="arr_down"></li>
+							</ul>
+						</div>
+					</div>
+					<!--****************nav_right**********************-->
+					<!--<div class="nav_right">
+						<div class="light"></div>
+						<div class="title_nx"></div>
+						<div class="subtitle"></div>
+					</div>-->
+				</div>
+
+			</div>
+			<!--************************partThree*************************-->	
+		</div>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/demoUtils.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/nx.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			let myScroll;
+			function loaded () {
+				myScroll = new IScroll('.pages', { mouseWheel: true });
+			}
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+				capture: false,
+				passive: false
+			} : false);
+			loaded ();
+		</script>
+	</body>
+</html>
