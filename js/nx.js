@@ -19,7 +19,7 @@ function Nx_$1(cla){
 	this.$1Car = this.$1C.getElementsByClassName("car")[0];
 	this.$1CP = this.$1C.children[1].children;
 	this.v =document.getElementsByClassName("viewport")[0];
-// 	this.v.style.width = window.screen.width/40 + 'rem';  
+// 	this.v.style.width = window.screen.width/40 + 'rem';   
 // 	this.v.style.height = window.screen.height/40 + 'rem';
 	this.$1CU = null;
 	this.$1CL = null;
