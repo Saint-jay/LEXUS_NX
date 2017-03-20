@@ -7,7 +7,7 @@ function montion(obj,time,doFn,callBack){
 		if(!called){
 			callBack && callBack.call(obj);
 			called = true;
-		}
+		} 
 	},false);
 }
 
