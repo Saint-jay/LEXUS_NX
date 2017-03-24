@@ -9,7 +9,7 @@ function montion(obj,time,doFn,callBack){
 			called = true;
 		} 
 	},false); 
-}
+}  
 
 
 //part1
