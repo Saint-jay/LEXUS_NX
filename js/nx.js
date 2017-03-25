@@ -6,7 +6,7 @@ function montion(obj,time,doFn,callBack){
 	obj.addEventListener('transitionend',function(){
 		if(!called){
 			callBack && callBack.call(obj);
-			called = true;
+			called = true;  
 		} 
 	},false); 
 }  
