@@ -8,7 +8,7 @@ function montion(obj,time,doFn,callBack){
 			callBack && callBack.call(obj);
 			called = true;  
 		}   
-	},false); 
+	},false);  
 }     
      
 
@@ -76,7 +76,7 @@ Nx_$1.prototype.line = function(){
 //part1呼吸灯2
 Nx_$1.prototype.lineT = function(){
 	let _this = this;
-	this.$1CUt.style.display = 'block';
+	this.$1CUt.style.display = 'block'; 
 	function TimeT(){
 		_this.n %= _this.$1CLt.length;
 		for (let i = 0; i < _this.$1CLt.length; i++) {
