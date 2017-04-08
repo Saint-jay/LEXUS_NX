@@ -154,7 +154,7 @@ Nx_$1.prototype.car = function(){
 
 let $1 = new Nx_$1("partOne");
 $1.init();
-
+ 
 
 var pageOne = document.getElementsByClassName("pagesOne")[0];
 
