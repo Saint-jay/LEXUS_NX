@@ -25,7 +25,7 @@ function Nx_$1(cla){
 	this.$1CL = null;
 	this.timer = null;
 	this.timerT = null;
-	this.n = 0;
+	this.n = 0; 
 	this.num = 0; 
 }
 
