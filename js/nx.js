@@ -11,7 +11,7 @@ function montion(obj,time,doFn,callBack){
 	},false);  
 }     
        
-
+  
 //part1
 function Nx_$1(cla){
 	this.$1 = document.getElementsByClassName(cla)[0];
