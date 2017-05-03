@@ -41,7 +41,7 @@ Nx_$1.prototype.init = function(){
 	for (let i = 0; i < 7; i++) {
 		ul.innerHTML += '<li class="line"></li>';
 		ulT.innerHTML += '<li class="line"></li>';
-	}
+	}   
 	ulT.innerHTML += '<li class="line"></li>';
 	this.$1CU = this.$1C.getElementsByClassName("first_line")[0];
 	this.$1CUt = this.$1C.getElementsByClassName("two_line")[0];
